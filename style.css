@@ -3,7 +3,7 @@ body {
   height: 100%;
   width: 100%;
   background: #ea81ae;
-  overflow: hidden;
+  overflow: auto;
   text-align: center;
   justify-content: center;
 }
@@ -275,6 +275,9 @@ body {
   color: rgb(245, 20, 84);
   text-shadow: 0 0 20px rgb(241, 94, 106);
   margin-left: -100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .text a {
   color: rgb(245, 20, 84);
