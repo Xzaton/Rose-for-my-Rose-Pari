@@ -5,19 +5,15 @@
 
 body {
   font-family: "Varela Round", "Quicksand", sans-serif;
-  background: url('background.jpg') no-repeat center center fixed;
+  background: url(background.jpg);
   background-size: cover;
-  background-attachment: fixed;
-  height: auto; /* Allows the body to extend as content grows */
-  width: 100%;
-  overflow: auto;
-  text-align: center;
-  justify-content: center;
+  background-repeat: no-repeat;
+  background-color: black;
 }
 
 .postcard {
   width: 800px;
-  height: 5000;
+  height: 500px;
   background: rgba(255, 255, 255, 0.101);
 
   margin: 0 auto;
@@ -37,7 +33,7 @@ body {
 
 .postcard1 {
   width: 800px;
-  height: 5000;
+  height: 500px;
   background: #f594b862;
   position: absolute;
   left: 24%;
@@ -111,7 +107,7 @@ p {
   font-family: cursive;
   font-weight: 540;
 }
-.Piyush {
+.ullu {
   font-size: 25px;
 
   text-shadow: 0 0 20px rgb(255, 255, 255);
