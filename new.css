@@ -5,10 +5,14 @@
 
 body {
   font-family: "Varela Round", "Quicksand", sans-serif;
-  background: url(background.jpg);
+  background: url('background.jpg') no-repeat center center fixed;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-color: black;
+  background-attachment: fixed;
+  height: auto; /* Allows the body to extend as content grows */
+  width: 100%;
+  overflow: auto;
+  text-align: center;
+  justify-content: center;
 }
 
 .postcard {
